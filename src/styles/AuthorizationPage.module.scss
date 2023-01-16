@@ -1,0 +1,52 @@
+.form {
+  text-align: center;
+  margin-top: 157px;
+  h1 {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+  }
+  button {
+    margin-top: 16px;
+    background: transparent;
+    border: none;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    color: #000000;
+    cursor: pointer;
+  }
+}
+
+.inputs {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  input {
+    width: 319px;
+    height: 58px;
+    border: 1px solid #bcbcbc;
+    border-radius: 18px;
+    margin-top: 5px;
+    padding: 2px 32px 5px;
+  }
+  .error {
+    color: red;
+  }
+}
+.error {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 8px;
+  letter-spacing: 0.02em;
+  color: red;
+}
